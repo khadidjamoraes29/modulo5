@@ -24,3 +24,8 @@ app.put('/user', function (req, res) {
 app.delete('/user', function (req, res) {
     res.send('deletando a rota: /user');
 });
+
+/* Como rodar o código:
+Primeiramente foi necessário criar uma porta com o Express. Após isso, criou-se várias rotas com 
+requisições distintas. Portanto, ao ver no imnsonia, as rotas vão ser modificadas de acordo com a 
+rquisição solicitada. */
